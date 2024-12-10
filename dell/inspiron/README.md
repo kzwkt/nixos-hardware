@@ -27,10 +27,11 @@
 ```
 
 # excat blob needed 
+```
 needed extra firmware from linux-firmware 
 https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/i915 : icl_dmc_ver1_09.bin  icl_guc_70.1.1.bin  icl_huc_9.0.0.bin : for graphics
 https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/qca : nvm_usb_00000302.bin  nvm_usb_00000302_eu.bin  rampatch_usb_00000302.bin : for bluetooth 
 https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/ath10k/QCA9377/hw1.0 : board-2.bin  board.bin	firmware-5.bin	firmware-6.bin	firmware-sdio-5.bin : for wifi
 https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/rtl_nic/rtl8106e-1.fw : for ethernet
-
+```
 
