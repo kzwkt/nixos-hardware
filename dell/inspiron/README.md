@@ -26,6 +26,28 @@
 01:00.0 Network controller [0280]: Qualcomm Atheros QCA9377 802.11ac Wireless Network Adapter [168c:0042] (rev 31)
 ```
 
+
+### Before Installation
+
+These settings are needed both for booting the final install, and
+installer itself. Therefore, they must be done first:
+
++ Disable *Secure* Boot (but keep **UEFI** Boot)
++ Disable *RAID* and use **AHCI**
+
+### Firmware Upgrades
+
+Note that this device is supported by [fwupd](https://fwupd.org).
+To perform firmware upgrades just activate the service:
+
+```
+services.fwupd.enable = true;
+```
+
+Then use `fwupdmgr` to perform updates
+
+
+
 # excat blob needed 
 
 needed extra firmware from linux-firmware 
